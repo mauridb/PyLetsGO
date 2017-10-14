@@ -39,6 +39,7 @@ tips = [
 short_time = '10'
 long_time = '3600'
 
+
 def start(bot, update):
     # TODO: improve logic of start
     keyboard = [[KeyboardButton("/set {}".format(short_time)),
@@ -99,7 +100,7 @@ def error(bot, update, error):
 
 
 def main():
-    updater = Updater("456831071:AAHdeUIbRIv7NThzlKNk9bAXXyJ4JM3JyYA")
+    updater = Updater("YOUR TOKEN HERE")
 
     # Get the dispatcher to register handlers
     dp = updater.dispatcher
